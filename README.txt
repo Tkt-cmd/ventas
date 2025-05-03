@@ -1,6 +1,6 @@
-===================================
-Sistema de Ventas - Documentación 
-===================================
+=======================================
+Sistema de Ventas - Proyecto Académico   
+=======================================
 
 Descripción:
 ------------
@@ -90,12 +90,14 @@ ventas/                              # Raíz del proyecto
 ├── main.py                          # Punto de entrada principal de la aplicación
 └── README.txt                       # Instrucciones de instalación y uso
 
-# Relaciones clave:
-# - inventario.py usa diálogos de movimientos/ para operaciones
-# - header.py provee navegación a todas las pantallas
-# - db.py es utilizado por todos los módulos para acceso a datos
-# - styles.py centraliza la configuración visual de la UI
+Relaciones clave:
+- inventario.py usa diálogos de movimientos/ para operaciones
+- header.py provee navegación a todas las pantallas
+- db.py es utilizado por todos los módulos para acceso a datos
+- styles.py centraliza la configuración visual de la UI
 
+Datos Incluidos:
+- Todos los datos son ficticios (generados para pruebas académicas). 
 
 Notas:
 -------
