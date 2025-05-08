@@ -3,7 +3,7 @@ from tkinter import ttk
 from db.db import obtener_datos
 from ui.styles import AppTheme
 from utils import helpers
-from ui.movimientos.dialogo_movimientos import DialogoMovimiento
+from ui.dialogos.dialogo_movimientos import DialogoMovimiento
 
 
 class PantallaInventario(ttk.Frame):
@@ -256,9 +256,6 @@ class PantallaInventario(ttk.Frame):
 
     def _abrir_dialogo_movimiento(self):
         DialogoMovimiento(self, self.productos, self._cargar_datos)
-
-    def _abrir_dialogo_nuevo_producto(self):
-        DialogoProducto(self, self._cargar_datos)
 
     if __name__ == "__main__":
         root = tk.Tk()

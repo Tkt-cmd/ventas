@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from db.db import ejecutar_query, obtener_datos
-from ui.movimientos.dialogo_producto import DialogoProducto
+from ui.dialogos.dialogo_producto import DialogoProducto
 
 class DialogoMovimiento:
     """
