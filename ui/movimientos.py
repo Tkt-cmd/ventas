@@ -122,13 +122,6 @@ class PantallaMovimientos(ttk.Frame):
         self.entrada_busqueda.pack(side=tk.LEFT, padx=5)
         self.entrada_busqueda.bind("<KeyRelease>", self._aplicar_filtros)
 
-        ttk.Button(
-            controles_frame,
-            text="➕ Nuevo Movimiento",
-            style="Primary.TButton",
-            command=self._abrir_dialogo_nuevo  # Debes definir este método
-        ).pack(side=tk.RIGHT)
-
         # Tabla de datos
         self._configurar_tabla()
 
