@@ -40,3 +40,7 @@ def formatear_moneda(valor):
         return f"${float(valor):.2f}"
     except (ValueError, TypeError):
         return "N/A"
+
+def get_inactive_color():
+    """Devuelve color para filas inactivas"""
+    return "#e0e0e0"  # Gris claro
